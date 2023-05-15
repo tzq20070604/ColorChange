@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ColorChange"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of ColorChange for test."
+  spec.summary      = "ColorChange is a framework that can change Swift string to UIColor"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "change hex str to color"
+  spec.description  = "ColorChange is very good to change Swift string to UIColor. A string can be offered only, welcome to install it!"
   spec.homepage     = "http://github.com/tzq20070604/ColorChange"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -88,8 +88,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
+
+  spec.swift_versions = "5.0"
 
   # spec.public_header_files = "Classes/**/*.h"
 
