@@ -23,4 +23,11 @@ public extension UIColor {
         let blue:CGFloat = CGFloat(value & 0xFF) * ratio
         self.init(red: red, green: green, blue: blue, alpha: 1.0)
     }
+    
+    convenience init(hexInt:Int) {
+        let red:CGFloat = CGFloat((hexInt >> 16 & 0xFF)) * ratio
+        let green:CGFloat = CGFloat(hexInt >> 8 & 0xFF) * ratio
+        let blue:CGFloat = CGFloat(hexInt & 0xFF) * ratio
+        self.init(red: red, green: green, blue: blue, alpha: 1.0)
+    }
 }

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ColorChange"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "ColorChange is a framework that can change Swift string to UIColor"
 
   # This description is used to generate tags and improve search results.
