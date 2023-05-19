@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ColorChange"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "ColorChange is a framework that can change Swift string to UIColor"
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,10 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "ColorChange is very good to change Swift string to UIColor. A string can be offered only, welcome to install it!"
+  spec.description  = <<-DESC
+  "ColorChange is very good to change Swift string to UIColor. A string can be offered only, welcome to install it!"
+                   DESC
+  
   spec.homepage     = "http://github.com/tzq20070604/ColorChange"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
